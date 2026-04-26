@@ -59,6 +59,13 @@ a {
   backdrop-filter: blur(14px);
 }
 
+.header-actions {
+  display: inline-flex;
+  align-items: center;
+  justify-self: end;
+  gap: 12px;
+}
+
 .brand {
   display: inline-flex;
   align-items: center;
@@ -131,6 +138,51 @@ a {
   font-weight: 700;
   color: var(--green-deep);
   background: rgba(255, 255, 255, 0.66);
+}
+
+.lang-switch {
+  display: inline-flex;
+  align-items: center;
+  gap: 4px;
+  padding: 4px;
+  border: 1px solid rgba(29, 38, 23, 0.08);
+  border-radius: 999px;
+  background: rgba(255, 255, 255, 0.72);
+  box-shadow: 0 12px 28px rgba(53, 74, 33, 0.08);
+}
+
+.lang-button {
+  border: 0;
+  padding: 9px 14px;
+  border-radius: 999px;
+  color: var(--muted);
+  font: inherit;
+  font-size: 0.9rem;
+  font-weight: 800;
+  background: transparent;
+  cursor: pointer;
+  transition:
+    color 0.22s ease,
+    background 0.22s ease,
+    box-shadow 0.22s ease,
+    transform 0.22s ease;
+}
+
+.lang-button:hover,
+.lang-button:focus-visible {
+  color: var(--text);
+  transform: translateY(-1px);
+}
+
+.lang-button:focus-visible {
+  outline: 2px solid rgba(198, 64, 83, 0.24);
+  outline-offset: 2px;
+}
+
+.lang-button.is-active {
+  color: white;
+  background: linear-gradient(135deg, var(--ruby), #db6a71);
+  box-shadow: 0 10px 24px rgba(198, 64, 83, 0.18);
 }
 
 .hero,
@@ -514,6 +566,12 @@ a {
   .site-nav {
     justify-content: flex-start;
     gap: 16px;
+  }
+
+  .header-actions {
+    width: 100%;
+    justify-content: space-between;
+    flex-wrap: wrap;
   }
 
   .hero h1 {
