@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Ruby Kiwi | Product Landing Page</title>
+    <meta
+      name="description"
+      content="세상에 없던 새로운 과일, 루비 키위를 소개하는 제품 랜딩 페이지입니다."
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@400;500;700;800&family=Noto+Serif+KR:wght@600;700;900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="page-shell">
+      <header class="site-header">
+        <a class="brand" href="#home">
+          <span class="brand-mark">RK</span>
+          <span class="brand-copy">
+            <strong>Ruby Kiwi</strong>
+            <span>Fresh fruit landing page</span>
+          </span>
+        </a>
+
+        <nav class="site-nav" aria-label="주요 메뉴">
+          <a href="#home">홈페이지</a>
+          <a href="#product">제품</a>
+          <a href="#story">스토리</a>
+          <a href="#inquiry">문의</a>
+        </nav>
+
+        <a class="header-pill" href="#story">Fresh Pick</a>
+      </header>
+
+      <main>
+        <section class="hero" id="home">
+          <div class="hero-copy">
+            <p class="eyebrow">Seasonal Signature Fruit</p>
+            <h1>세상에 없던 새로운 과일, 루비 키위</h1>
+            <p class="hero-description">
+              선명한 붉은 중심부와 부드러운 단맛, 그리고 산뜻한 향까지.
+              Ruby Kiwi는 첫입의 놀라움과 마지막 한 조각의 여운을 모두 담은
+              프리미엄 과일입니다.
+            </p>
+
+            <div class="hero-actions">
+              <a class="button button-primary" href="#product">제품 보기</a>
+              <a class="button button-secondary" href="#inquiry">지금 문의하기</a>
+            </div>
+
+            <ul class="hero-metrics" aria-label="핵심 특징">
+              <li>
+                <strong>High</strong>
+                <span>고당도 선별</span>
+              </li>
+              <li>
+                <strong>24H</strong>
+                <span>신선 출고</span>
+              </li>
+              <li>
+                <strong>Eco</strong>
+                <span>친환경 재배</span>
+              </li>
+            </ul>
+          </div>
+
+          <div class="hero-visual">
+            <div class="visual-orb visual-orb-left" aria-hidden="true"></div>
+            <div class="visual-card">
+              <img
+                src="images/ruby-kiwi-hero-v2.webp"
+                alt="붉은 중심부가 드러난 실제 루비 키위와 통키위가 함께 놓인 제품 사진"
+                fetchpriority="high"
+              />
+            </div>
+            <aside class="floating-note">
+              <span class="note-label">This Week's Highlight</span>
+              <strong>Ruby Core, Golden Green Flesh</strong>
+              <p>
+                비주얼은 강렬하고 맛은 부드러운, 보기에도 먹기에도 특별한
+                프리미엄 키위입니다.
+              </p>
+            </aside>
+          </div>
+        </section>
+
+        <section class="benefit-section" id="product">
+          <div class="section-heading">
+            <p class="eyebrow">Why Ruby Kiwi</p>
+            <h2>한 번 보면 기억에 남고, 한 번 맛보면 다시 찾게 됩니다</h2>
+          </div>
+
+          <div class="benefit-grid">
+            <article class="benefit-card">
+              <div class="benefit-icon" aria-hidden="true">
+                <svg viewBox="0 0 24 24" role="presentation">
+                  <path
+                    d="M12 3 4 11l8 10 8-10-8-8Z"
+                    fill="none"
+                    stroke="currentColor"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    stroke-width="1.7"
+                  />
+                </svg>
+              </div>
+              <h3>루비빛 중심부</h3>
+              <p>
+                반으로 갈랐을 때 드러나는 붉은 과육이 강한 첫인상을 남기며,
+                플레이팅만으로도 시선을 끄는 비주얼을 완성합니다.
+              </p>
+            </article>
+
+            <article class="benefit-card">
+              <div class="benefit-icon" aria-hidden="true">
+                <svg viewBox="0 0 24 24" role="presentation">
+                  <path
+                    d="M6 13c0-4.1 2.7-7 6-7s6 2.9 6 7c0 4.3-2.7 8-6 8s-6-3.7-6-8Z"
+                    fill="none"
+                    stroke="currentColor"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    stroke-width="1.7"
+                  />
+                  <path
+                    d="M10 11.5c.8-.7 1.5-1 2.1-1 1.6 0 2.9 1.2 2.9 2.8"
+                    fill="none"
+                    stroke="currentColor"
+                    stroke-linecap="round"
+                    stroke-width="1.7"
+                  />
+                </svg>
+              </div>
+              <h3>달콤한 풍미</h3>
+              <p>
+                과하게 무겁지 않은 단맛과 산뜻한 향이 함께 어우러져, 과일을
+                좋아하지 않는 사람도 부담 없이 즐길 수 있습니다.
+              </p>
+            </article>
+
+            <article class="benefit-card">
+              <div class="benefit-icon" aria-hidden="true">
+                <svg viewBox="0 0 24 24" role="presentation">
+                  <path
+                    d="M12 4v16M5 11.5c1.7 0 3.1-.9 3.9-2.3.8 1.4 2.2 2.3 3.9 2.3s3.1-.9 3.9-2.3c.8 1.4 2.2 2.3 3.9 2.3"
+                    fill="none"
+                    stroke="currentColor"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    stroke-width="1.7"
+                  />
+                </svg>
+              </div>
+              <h3>신선한 배송</h3>
+              <p>
+                선별 후 빠르게 출고되는 흐름을 기준으로 기획해, 집에서도
+                산지의 산뜻한 컨디션을 최대한 가깝게 느낄 수 있습니다.
+              </p>
+            </article>
+          </div>
+        </section>
+
+        <section class="story-section" id="story">
+          <div class="story-panel">
+            <p class="eyebrow">Brand Story</p>
+            <h2>익숙한 키위에 새로운 인상을 더하다</h2>
+            <p>
+              Ruby Kiwi는 흔한 과일 소개가 아니라, 색과 향, 질감의 차이를
+              감각적으로 전달하는 데 초점을 둔 제품 랜딩 콘셉트입니다. 붉은
+              중심부와 그린 골드 톤의 대비는 시각적인 매력을 만들고, 부드러운
+              단맛은 제품에 대한 기억을 더 오래 남깁니다.
+            </p>
+            <p>
+              선물용 과일, 카페 디저트 재료, 프리미엄 식재료 소개 페이지 등
+              다양한 방향으로 확장할 수 있도록 레이아웃을 구성했습니다.
+            </p>
+          </div>
+
+          <div class="story-stack">
+            <article class="recipe-card">
+              <span class="card-kicker">Flavor Note</span>
+              <strong>Sweet, bright, juicy</strong>
+              <p>
+                진한 색감과 달리 무겁지 않은 맛이라 요거트, 샐러드, 디저트
+                토핑까지 다양하게 어울립니다.
+              </p>
+            </article>
+
+            <article class="tag-card">
+              <span>#루비빛과육</span>
+              <span>#선물용과일</span>
+              <span>#프리미엄디저트</span>
+              <span>#신선배송</span>
+            </article>
+          </div>
+        </section>
+
+        <section class="contact-section" id="inquiry">
+          <div class="contact-card">
+            <div class="contact-copy">
+              <p class="eyebrow">Product Inquiry</p>
+              <h2>상품 문의는 이메일로 남겨주세요</h2>
+              <p>
+                루비 키위 상품 문의, 납품 문의, 협업 문의는 아래 이메일로
+                편하게 보내주세요. 확인 후 빠르게 답변드리겠습니다.
+              </p>
+            </div>
+
+            <div class="contact-panel">
+              <a href="mailto:rubykiwi@example.com">rubykiwi@example.com</a>
+              <span>상품 문의는 이메일로 접수됩니다.</span>
+            </div>
+          </div>
+        </section>
+      </main>
+
+      <footer class="site-footer">
+        <p>Ruby Kiwi Landing Page</p>
+        <p>Made for GitHub Pages deployment.</p>
+      </footer>
+    </div>
+  </body>
+</html>
