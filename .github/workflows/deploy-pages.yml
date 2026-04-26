@@ -31,8 +31,11 @@ jobs:
       - name: Prepare static files
         run: |
           mkdir _site
+          mkdir -p _site/landing-page
           cp index.html styles.css .nojekyll _site/
           cp -R images _site/images
+          cp landing-page/index.html landing-page/styles.css _site/landing-page/
+          cp -R landing-page/images _site/landing-page/images
 
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v4
