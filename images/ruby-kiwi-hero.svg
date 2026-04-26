@@ -1,0 +1,111 @@
+<svg width="1200" height="800" viewBox="0 0 1200 800" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="120" y1="80" x2="1040" y2="720" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#FFF8E9"/>
+      <stop offset="1" stop-color="#F6EFD8"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(840 250) rotate(120) scale(420 420)">
+      <stop stop-color="#FFD9D2"/>
+      <stop offset="1" stop-color="#FFD9D2" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="skin" x1="0" y1="0" x2="1" y2="1">
+      <stop stop-color="#9F7A45"/>
+      <stop offset="1" stop-color="#6E4D27"/>
+    </linearGradient>
+    <radialGradient id="flesh" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(0.38 0.32) scale(0.9)">
+      <stop stop-color="#FFF4BE"/>
+      <stop offset="1" stop-color="#93C548"/>
+    </radialGradient>
+    <radialGradient id="rubyCore" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(0.42 0.35) scale(0.9)">
+      <stop stop-color="#F36A83"/>
+      <stop offset="1" stop-color="#C73453"/>
+    </radialGradient>
+    <filter id="shadow" x="120" y="120" width="960" height="560" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+      <feDropShadow dx="0" dy="28" stdDeviation="28" flood-color="#8A8A5B" flood-opacity="0.18"/>
+    </filter>
+  </defs>
+
+  <rect width="1200" height="800" rx="42" fill="url(#bg)"/>
+  <circle cx="875" cy="210" r="240" fill="url(#glow)"/>
+  <ellipse cx="680" cy="695" rx="305" ry="44" fill="#D5CFAF" fill-opacity="0.55"/>
+
+  <g filter="url(#shadow)">
+    <g transform="translate(780 250) rotate(-12)">
+      <ellipse rx="160" ry="190" fill="url(#skin)"/>
+      <ellipse rx="143" ry="172" fill="#7E5B31"/>
+      <g opacity="0.18" fill="#FFF2D0">
+        <circle cx="-62" cy="-82" r="5"/>
+        <circle cx="-8" cy="-118" r="5"/>
+        <circle cx="58" cy="-96" r="4"/>
+        <circle cx="88" cy="-28" r="5"/>
+        <circle cx="42" cy="44" r="4"/>
+        <circle cx="-46" cy="76" r="5"/>
+        <circle cx="-96" cy="12" r="4"/>
+      </g>
+      <path d="M8 -178C44 -210 92 -208 124 -170C82 -162 40 -144 8 -116C-6 -136 -2 -158 8 -178Z" fill="#6AA34C"/>
+      <path d="M22 -166C72 -204 124 -192 148 -146C114 -144 74 -128 34 -96C16 -114 10 -138 22 -166Z" fill="#7FBE57"/>
+    </g>
+
+    <g transform="translate(520 410)">
+      <ellipse rx="225" ry="225" fill="#EFE9C8"/>
+      <ellipse rx="205" ry="205" fill="url(#skin)"/>
+      <ellipse rx="178" ry="178" fill="url(#flesh)"/>
+      <ellipse rx="88" ry="88" fill="url(#rubyCore)"/>
+      <ellipse rx="44" ry="44" fill="#FFE1A8"/>
+      <ellipse rx="22" ry="22" fill="#FFF4D6"/>
+
+      <g fill="#1E1E1A" opacity="0.78">
+        <ellipse cx="0" cy="-146" rx="5" ry="11"/>
+        <ellipse cx="52" cy="-136" rx="5" ry="11" transform="rotate(22 52 -136)"/>
+        <ellipse cx="95" cy="-110" rx="5" ry="11" transform="rotate(42 95 -110)"/>
+        <ellipse cx="128" cy="-66" rx="5" ry="11" transform="rotate(68 128 -66)"/>
+        <ellipse cx="141" cy="-12" rx="5" ry="11" transform="rotate(84 141 -12)"/>
+        <ellipse cx="134" cy="44" rx="5" ry="11" transform="rotate(102 134 44)"/>
+        <ellipse cx="104" cy="94" rx="5" ry="11" transform="rotate(126 104 94)"/>
+        <ellipse cx="58" cy="130" rx="5" ry="11" transform="rotate(150 58 130)"/>
+        <ellipse cx="0" cy="144" rx="5" ry="11" transform="rotate(180 0 144)"/>
+        <ellipse cx="-58" cy="130" rx="5" ry="11" transform="rotate(-150 -58 130)"/>
+        <ellipse cx="-104" cy="94" rx="5" ry="11" transform="rotate(-126 -104 94)"/>
+        <ellipse cx="-134" cy="44" rx="5" ry="11" transform="rotate(-102 -134 44)"/>
+        <ellipse cx="-141" cy="-12" rx="5" ry="11" transform="rotate(-84 -141 -12)"/>
+        <ellipse cx="-128" cy="-66" rx="5" ry="11" transform="rotate(-68 -128 -66)"/>
+        <ellipse cx="-95" cy="-110" rx="5" ry="11" transform="rotate(-42 -95 -110)"/>
+        <ellipse cx="-52" cy="-136" rx="5" ry="11" transform="rotate(-22 -52 -136)"/>
+      </g>
+
+      <g stroke="#FFFFFF" stroke-opacity="0.34" stroke-width="2">
+        <circle r="116"/>
+        <circle r="56"/>
+      </g>
+    </g>
+
+    <g transform="translate(810 505) scale(0.72)">
+      <ellipse rx="168" ry="168" fill="#EFE9C8"/>
+      <ellipse rx="152" ry="152" fill="url(#skin)"/>
+      <ellipse rx="128" ry="128" fill="url(#flesh)"/>
+      <ellipse rx="58" ry="58" fill="url(#rubyCore)"/>
+      <ellipse rx="26" ry="26" fill="#FFE1A8"/>
+      <g fill="#23231D" opacity="0.75">
+        <ellipse cx="0" cy="-103" rx="4" ry="9"/>
+        <ellipse cx="42" cy="-92" rx="4" ry="9" transform="rotate(24 42 -92)"/>
+        <ellipse cx="78" cy="-62" rx="4" ry="9" transform="rotate(52 78 -62)"/>
+        <ellipse cx="97" cy="-18" rx="4" ry="9" transform="rotate(78 97 -18)"/>
+        <ellipse cx="90" cy="34" rx="4" ry="9" transform="rotate(104 90 34)"/>
+        <ellipse cx="56" cy="76" rx="4" ry="9" transform="rotate(132 56 76)"/>
+        <ellipse cx="0" cy="102" rx="4" ry="9" transform="rotate(180 0 102)"/>
+        <ellipse cx="-56" cy="76" rx="4" ry="9" transform="rotate(-132 -56 76)"/>
+        <ellipse cx="-90" cy="34" rx="4" ry="9" transform="rotate(-104 -90 34)"/>
+        <ellipse cx="-97" cy="-18" rx="4" ry="9" transform="rotate(-78 -97 -18)"/>
+        <ellipse cx="-78" cy="-62" rx="4" ry="9" transform="rotate(-52 -78 -62)"/>
+        <ellipse cx="-42" cy="-92" rx="4" ry="9" transform="rotate(-24 -42 -92)"/>
+      </g>
+    </g>
+  </g>
+
+  <g opacity="0.75">
+    <circle cx="192" cy="144" r="8" fill="#F6C96B"/>
+    <circle cx="1018" cy="142" r="12" fill="#E8E1BD"/>
+    <circle cx="1052" cy="620" r="10" fill="#F3D98E"/>
+    <circle cx="228" cy="652" r="14" fill="#E8DBB4"/>
+  </g>
+</svg>
